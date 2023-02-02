@@ -49,6 +49,7 @@ body{
     margin: 1rem 0;
     color: var(--cyan);
     line-height: 1.2;
+    font-size:1rem;
 }
 .separator{
     margin-top: 1rem;

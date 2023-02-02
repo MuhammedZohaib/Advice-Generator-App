@@ -11,7 +11,7 @@ fetch('https://api.adviceslip.com/advice')
       button.addEventListener("click",refresh);
 
 function refresh() {
-
+    location.reload();
     adviceNo.innerText = "ADVICE # "+data.slip.id;
     advice.innerText = data.slip.advice;
 }
