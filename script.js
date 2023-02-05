@@ -13,7 +13,7 @@ fetch('https://api.adviceslip.com/advice')
 function refresh() {
     location.reload();
     adviceNo.innerText = "ADVICE # "+data.slip.id;
-    advice.innerText = data.slip.advice;
+    advice.innerText = "\""+data.slip.advice+"\"";
 }
   })
   .catch(error => {
